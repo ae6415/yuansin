@@ -1,0 +1,53 @@
+/* p{color: #f01717ad;} */
+
+/* .textFormat {font-size:32px ;color: #00ee77;} */
+/* googlefont雲端字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+:root,
+[data-bs-theme=light]
+{--bs-dark-rgb:148,14,45}
+/* 變更根元素大小 */
+html {font-size: 20px;}
+body {font-family: '微軟正黑體' "Noto Sans TC", sans-serif;}
+/* 標題1級文字大小 */
+h1{font-size: 2rem;}
+/* 標題2級文字大小，文字樣式，顏色 */
+h2{font-size: 1.5rem;font-weight:800 ;color: rgb(206, 17, 17);}
+.h2-custom-pink{font-size: 3rem;font-weight: 800;color: aquamarine;}
+p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+/* card樣式 */
+.card{
+    --bs-card-title-color:rgb(241, 28, 28);
+    --bs-card-corder-width:5px;
+    --bs-card-border-color:rgb(231, 25, 25);
+    }  
+/* 局部文字色彩 */
+.text-orange{
+    color: rgb(52, 10, 238);
+    font-size: 1rem;
+    font-weight:900;
+}
+h5{font-size: 1.5rem;font-weight: 800;color: #ee0000;}
+.text-red{color: #eb1f8f;font-weight: 900;}
+/* 自訂編號清單的編號 */
+.listroman{list-style-type: upper-roman;}
+/* 自訂項目清單的符號 */
+.list-style{list-style-type: circle;}
+
+/* 關於我頁面無框線設定 */
+.card-no-border{border: none;}
+
+/* css/custom.css */
+body {
+    background-color: #e3fa7f !important; /* #FFFFE0 是亮黃色 (LightYellow) */
+}
+body {
+  /* 組合了：深紅棕 -> 楓葉橙 -> 金黃 */
+  background: linear-gradient(to right, #b0daf7, #facc91, #a1f5a1);
+  background-attachment: fixed;
+  color: #230569;
+}
